@@ -1,4 +1,4 @@
-import Hero from '../components/pages/Hero'
+import Hero from '../components/Hero/Hero'
 
 const App: React.FC = () => {
   return (
