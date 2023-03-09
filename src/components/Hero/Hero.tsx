@@ -35,7 +35,7 @@ const HeroContainer = styled.main`
   box-shadow: 0 2px 10px #000000c0;
 `
 const ContentWrapper = styled.div`
-  min-width: 400px;
+  /* min-width: 400px; */
   height: 100%;
   border-radius: 20px;
   
