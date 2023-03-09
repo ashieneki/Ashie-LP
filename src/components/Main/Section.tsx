@@ -31,7 +31,7 @@ const SectionContainer = styled.section`
   justify-content: center;
 
   padding: 40px;
-  min-height: 50vh;
+  min-height: 45vh;
 
   background-color: #cc668810;
   &:nth-child(2n + 1) {
