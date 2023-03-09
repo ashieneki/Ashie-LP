@@ -1,19 +1,20 @@
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
+import { HashLink } from 'react-router-hash-link'
+
+import styled, { css } from 'styled-components'
 
 const MenuComponent: React.FC = () => {
   return (
     <Menu>
-      <MenuItem to="">
+      <MenuItem to="#about" smooth>
         葦江音綺とは？
       </MenuItem>
-      <MenuItem to="">
+      <MenuItem to="#download" smooth>
         ダウンロード
       </MenuItem>
-      <MenuItem to="">
+      <MenuItem to="/guideline">
         キャラクター利用ガイドライン
       </MenuItem>
-      <MenuItem to="">
+      <MenuItem to="/contact">
         お問い合わせ
       </MenuItem>
     </Menu>
@@ -28,7 +29,8 @@ const Menu = styled.div`
 
   flex-wrap: wrap;
 `
-const MenuItem = styled(Link)`
+
+const MenuItem = styled(HashLink)`
   color: #ffffff;
   font-size: 1.25em;
 

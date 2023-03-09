@@ -17,9 +17,6 @@ export default IllustComponent
 
 const Illust = styled.div`
   height: 100%;
-
-  ${HeroAnimation.Common}
-  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
 `
 const IllustImage = styled.img`
   position: absolute;

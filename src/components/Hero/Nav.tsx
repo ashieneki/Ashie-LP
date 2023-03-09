@@ -24,9 +24,8 @@ export default NavComponent
 const Nav = styled.nav`
   padding: 20px;
   background-color: #00000080;
-
-  ${HeroAnimation.Common}
-  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
+  
+  border-radius: 10px;
 `
 
 const Logotype = styled.div`
