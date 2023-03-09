@@ -8,9 +8,6 @@ const MenuComponent: React.FC = () => {
       <MenuItem to="#about" smooth>
         葦江音綺とは？
       </MenuItem>
-      <MenuItem to="#download" smooth>
-        ダウンロード
-      </MenuItem>
       <MenuItem to="/guideline">
         キャラクター利用ガイドライン
       </MenuItem>

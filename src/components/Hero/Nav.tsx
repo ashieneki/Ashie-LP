@@ -26,6 +26,10 @@ const Nav = styled.nav`
   background-color: #00000080;
   
   border-radius: 10px;
+
+  ${HeroAnimation.Common}
+  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
+  animation-delay: 2s;
 `
 
 const Logotype = styled.div`

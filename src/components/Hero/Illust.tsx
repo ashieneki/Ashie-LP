@@ -1,9 +1,9 @@
 
 import styled from 'styled-components'
 
-import HeroAnimation from './HeroAnimation'
-
 import IllustData from '../../assets/ashie.png'
+
+import HeroAnimation from './HeroAnimation'
 
 const IllustComponent: React.FC = () => {
   return (
@@ -26,4 +26,8 @@ const IllustImage = styled.img`
   width: 100%;
   max-width: 612px;
   max-height: 1000%;
+
+  ${HeroAnimation.Common}
+  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
+  animation-delay: 1s;
 `

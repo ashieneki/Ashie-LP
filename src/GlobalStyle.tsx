@@ -15,12 +15,9 @@ body {
   background-attachment: fixed;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Kaisei Opti';
-  font-weight: bold;
-}
-
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6,
+p,
+ul {
   margin: 0;
   margin-bottom: 20px;
   &:last-child {
@@ -28,7 +25,14 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
-h1 { font-size: 2em; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Kaisei Opti';
+}
 h2 {
   padding-bottom: 4px;
   font-size: 1.5em;
@@ -48,7 +52,10 @@ h2 {
     margin-bottom: 20px;
   }
 }
-h3 { font-size: 1em; }
+h3 {
+  font-size: 1em;
+  color: #cc6688;
+}
 h4 { font-size: 0.9em; }
 h5 { font-size: 0.8em; }
 h6 { font-size: 0.7em; }

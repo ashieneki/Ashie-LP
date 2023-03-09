@@ -83,19 +83,8 @@ const IllustArea = styled.section`
 `
 
 const AnimatedCatchCopy = styled(CatchCopyComponent)`
-  ${HeroAnimation.Common}
-  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
-
-  animation-delay: 0.25s;
 `
 const AnimatedIllust = styled(IllustComponent)`
-  ${HeroAnimation.Common}
-  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
-  
 `
 const AnimatedNav = styled(NavComponent)`
-  ${HeroAnimation.Common}
-  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
-
-  animation-delay: 0.75s;
 `

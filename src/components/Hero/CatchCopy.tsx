@@ -21,4 +21,8 @@ const CatchCopy = styled.div`
   font-size: 1.5em;
   font-weight: 700;
   color: #ffffff;
+
+  ${HeroAnimation.Common}
+  animation: ${HeroAnimation.ScrollToUp} 2s ease-out forwards;
+  animation-delay: 1.5s;
 `
